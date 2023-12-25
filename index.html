@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-      background-color: red;
-    }
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>alx Winter CountDown</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
 
-    .snowflake {
-      position: absolute;
-      background: #fff;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      animation: fall linear infinite;
-    }
-
-    @keyframes fall {
-      0% {
-        transform: translateY(-10vh);
-      }
-      100% {
-        transform: translateY(110vh);
-      }
-    }
-  </style>
+<body>
+	<div class="background">
+		<img src="image/tree.png" alt="" id="tree">
+		<img src="image/man.png" alt="" id="man">
+		<div class="background_tint">
+			<div class="logo">
+				<audio src="AdobeStock_295330049_Video_HD_Preview.mov" autoplay></audio>
+				<!-- <img src="/image/alx-removebg-preview.png" alt=""> -->
+				<img src="image/1682185406590.jpg" alt="" id="img">
+			</div>
+			<p id="event">Happy New Year</p>
+			<div class="table">
+				<div class="timer">
+					<div id="countdown"></div>
+					<p id="day_left">Days Left</p>
+					<div id="countdown_timer"></div>
+				</div>
+					<hr>
+				<div class="wishes">
+					<div id="wish-container"></div>
+				</div>
+			</div>
+			<p id="logo">MSD</p>
+		<!-- <img id="hat" src="/image/tra-removebg-preview.png" alt=""> -->
+		</div>
+		<audio src="AdobeStock_295330049_Video_HD_Preview.mov" autoplay></audio>
+	</div>
+	<footer>
+		<p>&copy; 2023 | Design by: Mohamed Super Dumbuya</p>
+	</footer>
+	<script src="js/script.js"></script>
 </body>
 </html>
